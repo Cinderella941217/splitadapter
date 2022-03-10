@@ -1,6 +1,6 @@
 name: Request Release Amount
 description: An test adapter that request release amount for each wallet address
-node_identifier: requestReleaseAmount
+node_identifier: omar_request-release-amount
 platforms: 
   - Docker
   - AWS Lambda
