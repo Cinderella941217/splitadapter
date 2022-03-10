@@ -1,0 +1,12 @@
+name: Request Release Amount
+description: An test adapter that request release amount for each wallet address
+node_identifier: example
+platforms: 
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources: 
+  - name: release request API
+    url: https://simplespliter.herokuapp.com/
+parameters:
+  - walletaddy
